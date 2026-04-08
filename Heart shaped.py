@@ -15,7 +15,7 @@ def heart():
             if heart_shape <= 0:
                 # Center text
                 if -1 < y < 1 and -10 < x < 10:
-                    text = "XXXXXXXXXXXXXX"
+                    text = "XXXXX"
                     index = (x + 10) // 4
                     if 0 <= index < len(text):
                         line += text[index]
